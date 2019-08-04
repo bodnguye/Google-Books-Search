@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Wrapper from "../components/Wrapper";
 import Jumbotron from "../components/Jumbotron";
 import Card from "../components/Card";
 import Form from "../components/Form";
@@ -58,6 +59,7 @@ class Home extends Component {
 
   render() {
     return (
+      <Wrapper>
       <Container>
         <Row>
           <Col size="md-12">
@@ -111,6 +113,7 @@ class Home extends Component {
         </Row>
         <Footer />
       </Container>
+      </Wrapper>
     );
   }
 }

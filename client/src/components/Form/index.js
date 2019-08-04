@@ -12,7 +12,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           id="Title"
           type="text"
           value={q}
-          placeholder="Ready Player One"
+          placeholder="Notes On A Nervous Planet"
           name="q"
           onChange={handleInputChange}
           required
@@ -24,7 +24,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           type="submit"
           className="btn btn-lg btn-danger float-right"
         >
-          Search
+          Explore
         </button>
       </div>
     </form>

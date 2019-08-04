@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Wrapper from "../components/Wrapper";
 import Jumbotron from "../components/Jumbotron";
 import Card from "../components/Card";
 import Book from "../components/Book";
@@ -32,6 +33,7 @@ class Saved extends Component {
 
   render() {
     return (
+      <Wrapper>
       <Container>
         <Row>
           <Col size="md-12">
@@ -76,6 +78,7 @@ class Saved extends Component {
         </Row>
         <Footer />
       </Container>
+      </Wrapper>
     );
   }
 }

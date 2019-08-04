@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 
 function Footer() {
   return (
     <footer>
       <hr />
-      <p className="pull-right">
-        <i className="fab fa-github" /> Proudly built using React.js
+      <p className="pull-right" id="quote">
+        <i className="fab fa-github"/> “A reader lives a thousand lives before he dies . . . The man who never reads lives only one.” – George R.R. Martin
       </p>
     </footer>
   );

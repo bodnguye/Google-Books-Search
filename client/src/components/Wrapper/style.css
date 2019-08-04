@@ -1,0 +1,14 @@
+.wrapper {
+  /*background: rgb(175, 175, 175);*/
+  background-image: url('https://ae01.alicdn.com/kf/HTB1GdAaJFXXXXaYXVXXq6xXFXXXV/1-25-W-x1-5-H-m-Attractive-Explorer-Photography-Backdrop-Studio-Wallpaper-Fashion-Adventure-Theme.jpg_640x640.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  padding-bottom: 50px;
+}
