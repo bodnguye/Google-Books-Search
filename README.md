@@ -23,4 +23,5 @@ React-based Google Books Search app that requires you to create React components
 ## Demo
 [Click here to Demo!](https://nervous.herokuapp.com/)
 
+## Preview
 ![Results](/client/public/images/googlebook.png)
